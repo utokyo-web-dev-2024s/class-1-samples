@@ -1,0 +1,44 @@
+body {
+  padding: 20px;
+  background-color: #eee;
+}
+
+#todo-app {
+  max-width: 600px;
+  margin: auto;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px #ddd;
+}
+
+#todo-input {
+  width: 60%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+#add-todo-button {
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  background-color: green;
+  color: white;
+}
+
+#todo-container {
+  list-style: none;
+  padding: 0;
+}
+
+#todo-container li {
+  background-color: #f6f6f6;
+  border-bottom: 1px solid #ddd;
+  padding: 12px;
+}
+
+#todo-container li:last-child {
+  border: none;
+}

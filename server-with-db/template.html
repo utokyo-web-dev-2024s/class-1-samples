@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>ToDoリスト</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div id="todo-app">
+      <h1>ToDoリスト</h1>
+      <form method="post" action="/send">
+        <input
+          id="todo-input"
+          type="text"
+          name="todo"
+          placeholder="新しいToDoを入力してください。"
+        />
+        <button id="add-todo-button" type="submit">追加</button>
+      </form>
+      <ul id="todo-container">
+        <!-- todos -->
+      </ul>
+    </div>
+  </body>
+</html>
